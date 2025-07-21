@@ -9,6 +9,6 @@ public class KafkaProducerConfig {
 
     @Bean
     public NewTopic createTopic(){
-        return new NewTopic("kafka-con-prod-topics",3,(short)1);
+        return new NewTopic("kafka-json-topics2",3,(short)1);
     }
 }
